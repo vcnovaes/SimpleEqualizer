@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lY96Ne" name="SimpleEQ" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              headerPath="/usr/include/gtk-3.0 &#10;/usr/include/at-spi2-atk/2.0 &#10;/usr/include/at-spi-2.0 &#10;/usr/include/dbus-1.0 &#10;/usr/lib/x86_64-linux-gnu/dbus-1.0/include &#10;/usr/include/gtk-3.0 &#10;/usr/include/gio-unix-2.0 &#10;/usr/include/cairo &#10;/usr/include/pango-1.0 &#10;/usr/include/fribidi &#10;/usr/include/harfbuzz &#10;/usr/include/atk-1.0 &#10;/usr/include/cairo &#10;/usr/include/pixman-1 &#10;/usr/include/uuid &#10;/usr/include/freetype2 &#10;/usr/include/libpng16 &#10;/usr/include/gdk-pixbuf-2.0 &#10;/usr/include/libmount &#10;/usr/include/blkid &#10;/usr/include/glib-2.0 &#10;/usr/lib/x86_64-linux-gnu/glib-2.0/include -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0-pthread &#10;/usr/include/gtk-3.0 &#10;/usr/include/at-spi2-atk/2.0 &#10;/usr/include/at-spi-2.0 &#10;/usr/include/dbus-1.0 &#10;/usr/lib/x86_64-linux-gnu/dbus-1.0/include &#10;/usr/include/gtk-3.0 &#10;/usr/include/gio-unix-2.0 &#10;/usr/include/cairo &#10;/usr/include/pango-1.0 &#10;/usr/include/fribidi &#10;/usr/include/harfbuzz &#10;/usr/include/atk-1.0 &#10;/usr/include/cairo &#10;/usr/include/pixman-1 &#10;/usr/include/uuid &#10;/usr/include/freetype2 &#10;/usr/include/libpng16 &#10;/usr/include/gdk-pixbuf-2.0 &#10;/usr/include/libmount &#10;/usr/include/blkid &#10;/usr/include/glib-2.0 &#10;/usr/lib/x86_64-linux-gnu/glib-2.0/include -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0">
+  <MAINGROUP id="OfRyVR" name="SimpleEQ">
+    <GROUP id="{D4C34D9C-A920-34C2-BCFC-094A2C9EA976}" name="Source">
+      <FILE id="dwmgr8" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="LXqE3p" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="L07t09" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="RaICVN" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleEQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SimpleEQ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
